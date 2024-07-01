@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+            <a href="homepage.html">DRESS</a>
+        </div>
+        <a href="contact.html" class="contact">CONTACT</a>
+    </nav>
+    <p>Certain outfits flatter certain body types, weather, and occasions, 
+        so it can be overwhelming to try and tackle the choices alone. 
+        Here is your guide to all dress types, for any occasion. Contents show</p>
+
+    <section class="form-section">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="genre">FAVOURITE GENRE</label>
+                <input list="genres" id="genre" name="genre">
+                <datalist id="genres">
+                    <option value="Action">
+                    <option value="Comedy">
+                    <option value="Drama">
+                    <option value="Horror">
+                    <option value="Romance">
+                </datalist>
+                
+            </div>
+            
+           <div class="checkbox-container"> <input type="checkbox" id="subscribe" name="subscribe"> <label for="subscribe">Subscribe to our newsletter via email</label> </div><br><br>
+            <div class="form-group">
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </section>
+
+
+        <footer>
+             <p>&copy; 2024 MyWebsite. All rights reserved.</p> 
+        </footer>
+    
+</body>
+</html>
